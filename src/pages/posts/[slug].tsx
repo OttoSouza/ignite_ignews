@@ -67,7 +67,7 @@ export const getServerSideProps: GetServerSideProps = async ({
       }
     ),
   };
-  console.log(JSON.stringify(response, null, 2));
+  // console.log(JSON.stringify(response, null, 2));
   return {
     props: { post },
   };
